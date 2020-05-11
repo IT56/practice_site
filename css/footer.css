@@ -106,10 +106,15 @@ a{
 a:hover{
 	 color: #fff;
 }
+
 .widget.subscribe p{ 
 	margin-bottom: 18px;
 } 
+.li_box{
+	margin-left:-90px;
+}
 .widget li{ 
+	padding-left: 50px;
 	color: #10c9c3;
 } 
 .widget li:hover{
