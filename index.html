@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Web-develompet</title>
 		<link href="css/style.css" rel="stylesheet">
+		<link href="css/menu.css" rel="stylesheet">
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/jquery.fancybox.min.css" rel="stylesheet"> <!-- стили галереи -->
 	<link href="css/slide.css" rel="stylesheet">
@@ -13,25 +15,32 @@
 <link href="css/progress.css" rel="stylesheet"> <!-- progressbar style -->
 <script src="js/progress.js"></script> <!-- progressbar js-->
 <script src="js/jquery.fancybox.min.js"></script> <!-- галерея -->
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> 
- -->
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+<script src="js/main.js"></script> <!-- Resource jQuery -->
 </head>
 <body>
+	<!-- МЕНЮ -->
+<header>
+			<nav class="cd-main-nav-wrapper">
+			<ul class="cd-main-nav">
+				<li><a href="#0">Home</a></li>
+				<li><a href="#0">About</a></li>
+				<li><a href="#0">Work</a></li>
+				<li><a href="#0">Process</a></li>
+				<li><a href="#0">Services</a></li>
+				<li><a href="#0">Testimonials</a></li>
+				<li><a href="#0">Contact</a></li>			
+			</ul> <!-- .cd-main-nav -->
+		</nav> <!-- .cd-main-nav-wrapper -->
+		<a href="#0" class="cd-nav-trigger"><span></span></a>
+	</header>
+
 	<!-- Главная-->
+	<main class="cd-main-content">
 <div class="main">
 	<div class="container">
-<div class="menu">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Work</a></li>
-			<li><a href="#">Process</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Testimonials</a></li>
-			<li><a href="#">Contact</a></li>
-</div>
-	
 		 <div class="row justify-content-end">
-    <div class="col-6">
+    <div class="col-6 col-md-6 col-sm-12 col-xs-10">
 		<div class="main-txt">
 	<h1>We Design and Develop</h1>
 	<p class = "about_us">
@@ -48,12 +57,20 @@
 </div>
 </div>
 
+
 <!-- О НАС -->
 <div class="about">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class = "col-lg-8 col-sm-10 col-xs-12">
 	<h2>About Us</h2>
 	<p class="about_text">Divide have don't man wherein air fourth. Own itself make have night won't make. <br>A you under Seed appear which good give. Own give air without fowl moveth dry first <br> heaven fruit dominion she'd won't very all.</p>
 	<img src="img/02.jpeg" width="200" height="100">
 </div>
+</div>
+</div>
+</div>
+
 
 <!-- НАВЫКИ -->
 <div class="skills">
@@ -71,13 +88,15 @@
 </div>
 </div>
 
-<!-- ДОСТИЖЕНИЯ -->
 
-<div class="container-1">
+<!-- ДОСТИЖЕНИЯ -->
+<!-- <div class="container-1">
 	<div class="container">
-<div class="achievements">
+		<div class="achievements">
+	
 	<img src="img/icons/03.png" width="40" height="40" alt="портфель">
-	<label class="icons_label">548<br>PROJECTS COMPLETED</label>
+		<label class="icons_label">548<br>PROJECTS COMPLETED</label>
+	
 	<img src="img/icons/04.png" width="40" height="40" alt="часы">
 		<label class="icons_label">1465<br>WORKING HOURS</label>
 
@@ -85,11 +104,34 @@
 		<label class="icons_label">612<br>POSITIVE FEEDBACKS</label>
 
 	<img src="img/icons/02.png" width="40" height="40" alt="сердечко">
-	<label class="icons_label">735<br>HAPPY CLIENTS</label>
-</div>
-</div>
-</div>
+		<label class="icons_label">735<br>HAPPY CLIENTS</label>
 
+		</div>
+	</div>
+</div>
+ -->
+ <div class="achievements">
+ <div class="container">
+ 	<div class="row justify-content-center">
+ 		<div class = "col-lg-3 col-sm-12 col-xs-12">
+ 			<img src="img/icons/03.png" width="50" height="50" alt="портфель">
+		<label class="icons_label">548<br>PROJECTS COMPLETED</label>
+</div>
+		<div class = "col-lg-3 col-sm-12 col-xs-12">
+			<img src="img/icons/04.png" width="50" height="50" alt="часы">
+		<label class="icons_label">1465<br>WORKING HOURS</label>
+</div>
+			<div class = "col-lg-3 col-sm-12 col-xs-12">
+				<img src="img/icons/01.png" width="50" height="50" alt="звезда">
+		<label class="icons_label">612<br>POSITIVE FEEDBACKS</label>
+</div>
+			<div class = "col-lg-3 col-sm-12 col-xs-12">
+				<img src="img/icons/02.png" width="50" height="50" alt="сердечко">
+		<label class="icons_label">735<br>HAPPY CLIENTS</label>
+ 	</div>
+ </div>
+</div>
+</div>
  <!-- ГАЛЕРЕЯ -->
 <div class="container-2">
 		<a href="img/06.jpg" data-fancybox>
@@ -246,6 +288,7 @@ for them air two won't</span></p>
 		<img src="img/logo/5.png" alt="логотип 5">
 	</div>
 </div>
+</main>
 
 <!-- ФОРМА ОБРАТНОЙ СВЯЗИ -->
 <div class="box">

@@ -1,25 +1,27 @@
 @media(max-width: 1199px){
 	html{
-		font-size: 8px;
+		font-size: 20px;
 	}
-
 }
-
 @media(max-width: 991px){
 	html{
 		font-size: 20px;
 	}
-		/*.visible-lg{
-		display: none;
-	}
-	.m-menu-link{
-		display:block;
-	}*/
-	.achievements{
-		flex-direction: column;
-	line-height: 30px;
+.main{
+margin-bottom: -300px;
+}
+.achievements{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.icons_label{
+	padding-top:20px;
+	padding-bottom:20px;
 	}
 
+.skills{
+margin-top: -100px;
+}
 	.container-2{
 			display:flex;
 		/*flex-wrap: wrap;*/
@@ -33,7 +35,6 @@
 	width: 100%;
 	}
 
-	}
 	.more{
 background-color: #fff;
 	}
@@ -49,4 +50,8 @@ background-color: #fff;
 .services_txt{
 		margin-bottom: 50px;
 	}
+	.skills{
+		background: #fff;
+	}
 }
+	

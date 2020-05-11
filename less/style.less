@@ -28,32 +28,11 @@ font-family: 'Nunito Sans Regular';
 }
 
 .main{
-	// display: flex;
 	background: url(../img/01.jpg) right no-repeat;
 	background-size: 1800px 1300px;
 }
-.menu{
-	display:flex;
-	list-style: none;
-	justify-content: flex-end;
-}
-.menu li{
-	padding:50px 15px;
-	a{
-		font-size: 14px;
-		color:@black;
-		text-decoration: none;
-		text-transform: uppercase;
-		.mont();
-		transition: all 1s;
-	}
-	a:hover{
-		margin: 10px;
-		color:@blue;
-	}
-}
-
 h1,h2{
+
 	color:@black;
 	.mont();
 }
@@ -62,7 +41,6 @@ p{
 	.nunito()
 }
 
-
 .main-txt{
 	margin-top: 150px;
 	padding-bottom: 400px;
@@ -70,9 +48,8 @@ p{
 
 }
 .about_us{
-	padding-top:auto;
+	padding-top:10px;
 	.nunito();
-
 
 }
 .main-btn{
@@ -84,8 +61,10 @@ p{
 }
 
 .about{
-	margin-top: 100px;
+	padding-top: 100px;
+	padding-bottom:100px;
 	text-align: center;
+	background-color:@white;
 
 &_text{
 	margin-top: 40px;
@@ -95,7 +74,7 @@ p{
 }
 .skills{
 	background:url(../img/03.jpg) 100% 100% no-repeat;
-	margin-top: 50px;
+	padding-top: 50px;
 	padding-top: 100px;
 	padding-bottom:100px;
 &_name{
@@ -103,31 +82,20 @@ p{
 	font-size: 14px;
 }
 }
-@media(min-width: 500px){
-
-.container-1{
-	width: 100%;
-	// height: 240px;
-	background-color:@blue;
-}
 
 .achievements{
-	// padding-right:250px;
-	padding-top:100px;
-	padding-bottom:100px;
-	display:flex;
-	justify-content:space-between;
+	width: 100%;
+		background-color:@blue;
 }
 
 .icons_label{
-// position: absolute;
-padding-top:5px;
-padding-right:70px;
-font-size: 12px;
-color:@white;
-.mont()
+	padding:100px 0px 100px 10px;
+	font-size: 12px;
+
+	.mont()
+
 }
-}
+
 .container-2{
 		display:flex;
 		flex-wrap: wrap;
@@ -226,39 +194,3 @@ form{
 	}
 }
 
-// .m-menu{
-// 	margin:0;
-// 	position:fixed;
-// 	right:0;
-// 	top:0;
-// 	height: 100vh;
-// 	width: 100%;
-// 	text-align: center;
-// 	list-style:none;	
-// 	font-size: 2rem;
-// 	line-height: 5rem;
-// 	background-color:@gray;
-// 	z-index: 999;
-// 	transition:0.2s;
-// 	transform: translateX(100%);
-// }
-// .m-menu__active{
-// 	transform: translateX(0%);
-// }
-
-// .m-menu-link{
-// 	padding-top:20px;
-// 	display:none;
-// 	font-size: 30px;
-// 	text-align: center;
-// }
-// .close_menu{
-// margin:0;
-// position:fixed;
-// font-size: 30px;
-// right:0;
-// top:0;
-// }
-// .close_menu:hover{
-// 	cursor: pointer;
-// }
