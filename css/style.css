@@ -59,23 +59,36 @@ p {
   font-size: 14px;
 }
 .achievements {
+  padding-top: 70px;
   width: 100%;
   background-color: #10c9c3;
 }
 .icons_label {
-  padding: 70px 0px 70px 10px;
+  padding: 10px 0px 70px 10px;
   font-size: 12px;
   font-family: 'Montserrat Medium';
 }
 .container-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 .container-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 .box-1 {
   width: 100%;
@@ -126,8 +139,12 @@ span {
   text-align: center;
 }
 .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 80px;
   padding-bottom: 80px;
 }
@@ -141,6 +158,7 @@ span {
   padding-bottom: 40px;
   text-align: center;
   font-size: 14px;
+  color: #191919;
   font-family: 'Nunito Sans Regular';
 }
 form {
@@ -162,4 +180,51 @@ form {
   margin-left: 30px;
   width: 675px;
   height: 175px;
+}
+.btn_two {
+  margin-top: 45px;
+  margin-left: 260px;
+  padding: 15px 40px;
+  background-color: #10c9c3;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+}
+@media (max-width: 575.98px) {
+  .box {
+    width: 100%;
+    height: 600px;
+  }
+  .form_com {
+    padding: 10px 0px 30px 10px;
+    font-size: 12px;
+  }
+  .process_txt {
+    font-size: 18px;
+  }
+  form {
+    text-align: center;
+  }
+  .input_form {
+    width: 150px;
+    height: 30px;
+  }
+  .input_form_form {
+    width: 330px;
+    height: 30px;
+    margin-left: 30px;
+  }
+  .input_form_form_comments {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 330px;
+    height: 100px;
+  }
+  .btn_two {
+    margin-top: 45px;
+    margin-left: 170px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 10px;
+  }
 }
