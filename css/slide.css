@@ -40,7 +40,7 @@ padding-bottom:60px;
           justify-content: center;
             font-family: 'Montserrat Medium';
           background-color:#10c9c3;
-            font-size: 20px;
+            font-size: 16px;
 
 
 }
@@ -128,7 +128,7 @@ padding-bottom:60px;
   margin-bottom: 5rem;
   max-width: 300px;
    color:#ffffff;
-   font-size: 14px;
+   font-size: 12px;
 }
 
 @-webkit-keyframes check {
